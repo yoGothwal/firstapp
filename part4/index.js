@@ -11,7 +11,7 @@ app.use(express.json())
 // app.use(morgan('combined'));
 
 const x = {name: "Yogendra", age : 24}
-y = JSON.stringify(x, ["name"],2)
+y = JSON.stringify(x, ["name"], 6)
 console.log(y)
 
 let persons = [
